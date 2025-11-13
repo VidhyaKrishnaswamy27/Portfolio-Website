@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhya Krish | IT Management Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom scrollbar for aesthetics */
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: #0d9488; /* Teal-600 for a slightly deeper look */
+            border-radius: 4px;
+        }
+        body::-webkit-scrollbar-track {
+            background: #111827; /* Gray-900 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm shadow-xl border-b border-teal-500/30">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <!-- Logo/Name -->
+            <a href="#hero" class="text-2xl font-bold tracking-wider text-teal-400 hover:text-teal-300 transition duration-300">
+                VIDHYA KRISHNASWAMY | MS - ITM
+            </a>
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#experience" class="text-lg font-medium hover:text-teal-400 transition duration-300">About</a>
+                <a href="#projects" class="text-lg font-medium hover:text-teal-400 transition duration-300">Projects & Skills</a>  
+                <a href="#contact" class="text-lg font-medium hover:text-teal-400 transition duration-300">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button (Placeholder for JS toggle) -->
+            <button class="md:hidden text-gray-100 hover:text-teal-400 transition duration-300 p-2 rounded-full" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section: Focus on Leadership and Strategy -->
+        <section id="hero" class="relative pt-16 md:pt-20 lg:pt-24 h-screen flex items-center justify-center overflow-hidden">
+            <!-- Background Image Placeholder (Abstract/Tech look) -->
+            <div class="absolute inset-0 z-0 bg-cover bg-center" 
+                style="background-image: url('https://placehold.co/1920x1080/1f2937/0d9488?text=Portfolio');">
+            </div>
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-gray-900 opacity-70 z-10"></div>
+            
+            <!-- Hero Content -->
+            <div class="relative z-20 text-center px-4 max-w-5xl">
+                <p class="text-xl sm:text-2xl mb-4 font-medium text-teal-400 drop-shadow-md tracking-wider uppercase">
+                    Digital Strategy & Transformational Leadership
+                </p>
+                <h1 class="text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6 text-white drop-shadow-lg">
+                    Driving Value Through IT Management
+                </h1>
+                <p class="text-xl sm:text-2xl mb-10 font-light text-gray-300 drop-shadow-md">
+                    MS in IT Management Candidate | 10+ Years of Managerial Excellence at L&T and RBS
+                </p>
+                <p class="text-xl sm:text-2xl mb-10 font-light text-gray-300 drop-shadow-md">
+                <a href="/vidhya.pdf" class="text-lg font-medium hover:text-teal-400 transition duration-300"> Download my resume here </a>
+                </p>
+                <a href="#projects" class="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-semibold rounded-xl shadow-2xl text-gray-900 bg-teal-400 hover:bg-teal-300 transition duration-300 transform hover:scale-[1.02] ring-2 ring-teal-400/50">
+                    Explore Core Competencies
+                </a>
+            </div>
+        </section>
+        <!-- 2. Experience Section (Replaced 'About') -->
+        <section id="experience" class="bg-gray-800 py-16 md:py-24">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-8 text-center text-teal-400">Professional Journey & Education</h2>
+                <div class="flex flex-col md:flex-row items-start md:space-x-12">
+                    <div class="md:w-1/3 mb-8 md:mb-0">
+                        <!-- Placeholder for Professional Photo/Logo -->
+                        <img src="/vidhyaphoto.png" alt="Professional Headshot" class="w-48 h-48 md:w-full md:h-auto object-cover rounded-xl mx-auto shadow-2xl ring-4 ring-teal-400/50">
+                    </div>
+                    <div class="md:w-2/3 text-lg leading-relaxed text-gray-300">
+                        <p class="mb-4 text-white font-semibold">
+                            I am currently pursuing my Master of Science in IT Management (MS ITM), blending advanced academic theory with a proven track record in corporate leadership.
+                        </p>
+                        
+                        <h3 class="text-2xl font-bold text-teal-300 mt-6 mb-2">Managerial Career Summary (10 Years)</h3>
+                        <p class="mb-4">
+                            My decade of managerial experience is built on solid foundations laid at industry leaders. I spent my tenure in directing large-scale technology deployments at Larsen & Toubro (L&T), where I mastered project delivery under high-pressure conditions.
+                        </p>
+                        <p class="mb-4">
+                            Subsequently, my time at Royal Bank of Scotland (RBS) involved managing critical Learning & Development projects, where compliance, security, and system reliability were paramount. This experience across industrial sectors gives me a unique perspective on technological needs and operational risk.
+                        </p>
+                        <p class="text-teal-300 font-medium">
+                            I am focused on leveraging this expertise to drive strategic IT initiatives with Project Management Skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3. Core Competencies / Projects Section -->
+        <section id="projects" class="py-16 md:py-24 container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-14 text-left text-white">Project Showcase</h2>
+            
+            <!-- Grid for Projects (Cards) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <!-- Card 1: IT Strategy -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Strategy (Briefcase) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-1.22-8.595-3.265A2.001 2.001 0 012 11.25V5a2 2 0 012-2h16a2 2 0 012 2v6.255zM12 15v8m-4-4h8"/></svg>
+                        <h3 class="text-2xl font-semibold">Training Modules upload in L&T EduTech website</h3>
+                    </div>
+                    <p class="text-gray-300">Managed entire project from requirement gathering till deployment. Involved in all phase of SDLC during my tenure at L&T.</p>
+                </div>
+
+                <!-- Card 2: Project Management -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Projects (Clipboard) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M10 16h.01"/></svg>
+                        <h3 class="text-2xl font-semibold">Learning Management System at Royal Bank of Scotland (PMP)</h3>
+                    </div>
+                    <p class="text-gray-300">Successfully led cross-functional teams through large scale Learning Management System projects, consistently delivering on time and under budget using Agile/SCRUM methodologies at RBS.</p>
+                </div>
+                
+                <!-- Card 3: Financial Technology -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Finance (Chart) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0h6"/></svg>
+                        <h3 class="text-2xl font-semibold">Employee Recovery Automation System at Neeyamo Enterprises</h3>
+                    </div>
+                    <p class="text-gray-300">Managed Employee Recovery Automation System platforms at Neeyamo, focusing on designing end-to-end process flows, stability, compliance, and performance optimization.</p>
+                </div></div>
+<h3 class="text-4xl sm:text-5xl font-bold mt-16 mb-14 text-left text-white">Core Competencies</h3>
+<!-- Grid for Competencies (Cards) -->
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Card 4: Leadership -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Leadership (Users) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h-10m13 0a2 2 0 01-2 2H6a2 2 0 01-2-2m14 0v-2a3 3 0 00-3-3H7a3 3 0 00-3 3v2m14-10a5 5 0 10-10 0v2h10v-2zm-5 4a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                        <h3 class="text-2xl font-semibold">Team & Stakeholder Management</h3>
+                    </div>
+                    <p class="text-gray-300">Mentored and led teams of up to 5 members, fostering a high-performance culture and effectively managing stakeholder expectations across departments.</p>
+                </div>
+
+                <!-- Card 5: Current Studies -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Education (Grad Cap) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14v2H5zm0 4h14v2H5zm0 4h14v2H5z"/></svg>
+                        <h3 class="text-2xl font-semibold">MS ITM </h3>
+                    </div>
+                    <p class="text-gray-300">Currently specializing in Information Technology Management, focusing on emerging areas like AI adoption strategies and project management.</p>
+                </div>
+
+                <!-- Card 6: Technical Skills -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border-t-4 border-teal-400 hover:shadow-teal-400/20 transition duration-500">
+                    <div class="flex items-center mb-4 text-teal-400">
+                        <!-- Icon for Skills (Code) -->
+                        <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                        <h3 class="text-2xl font-semibold">Technical Acumen</h3>
+                    </div>
+                    <p class="text-gray-300">Proficient in cloud platforms (AWS/Azure concepts), data analysis tools (SQL, Python, Power BI, Tableau).</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 4. Contact Section -->
+        <section id="contact" class="py-16 md:py-24 container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-10 text-center text-white">Let's Connect</h2>
+            <p class="text-xl text-center mb-10 text-gray-300">
+                I am open to new career opportunities, project collaborations, and professional networking.
+            </p>
+
+            <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-teal-400/30">
+                <!-- Simple Form Placeholder -->
+                <form class="space-y-6"  method="POST" data-netlify="true" action="/Thankyou.html">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-teal-400 focus:border-teal-400 transition" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-teal-400 focus:border-teal-400 transition" placeholder="you@professional.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-teal-400 focus:border-teal-400 transition" placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-6 py-3 border border-transparent text-lg font-semibold rounded-lg shadow-lg text-gray-900 bg-teal-400 hover:bg-teal-300 transition duration-300 transform hover:scale-[1.01]">
+                        Send Inquiry
+                    </button>
+                    <p class="text-center text-sm text-gray-400 mt-4">
+                        For immediate contact: <a href="mailto:krishnaswamy.vidhya@gmail.com" class="text-teal-400 hover:text-teal-300 font-medium">krishnaswamy.vidhya@gmail.com</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+            <p>&copy; 2025 Vidhya Krishnaswamy | IT Management Portfolio.</p>
+            
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <!-- Social Media Icons (using placeholders for LinkedIn/GitHub) -->
+                <a href="https://www.linkedin.com/in/vidhya-chittibabu-krishnaswamy-230a9458?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hover:text-teal-400 transition duration-300" aria-label="LinkedIn">
+                    <!-- LinkedIn Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.529-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/VidhyaKrishnaswamy27" class="hover:text-teal-400 transition duration-300" aria-label="GitHub">
+                    <!-- GitHub Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.867 8.134 6.83 9.48.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.164-1.11-1.47-1.11-1.47-.908-.62.081-.608.081-.608 1.004.072 1.532 1.03 1.532 1.03.89 1.529 2.348 1.087 2.91.83.091-.643.354-1.088.649-1.332-2.228-.252-4.555-1.112-4.555-4.943 0-1.09.39-1.983 1.03-2.687-.104-.253-.448-1.272.099-2.65 0 0 .84-.27 2.75 1.026.79-.22 1.63-.33 2.47-.33.84 0 1.68.11 2.47.33 1.91-1.296 2.75-1.026 2.75-1.026.546 1.379.202 2.398.099 2.65.64.704 1.03 1.597 1.03 2.687 0 3.841-2.33 4.687-4.564 4.935.359.308.678.938.678 1.882 0 1.36-.012 2.454-.012 2.781 0 .266.182.576.687.485C21.13 20.155 24 16.438 24 12.017 24 6.484 19.523 2 14 2z" clip-rule="evenodd"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
