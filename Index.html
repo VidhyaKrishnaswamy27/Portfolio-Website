@@ -184,7 +184,10 @@
 
             <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-teal-400/30">
                 <!-- Simple Form Placeholder -->
-                <form class="space-y-6"  method="POST" data-netlify="true" action="/thankyou.html">
+                <form class="space-y-6" name ="contact"  method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thankyou.html">
+                    <p class="hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    </p>
                     <div>
                         <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Name</label>
                         <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-teal-400 focus:border-teal-400 transition" placeholder="Your Name">
